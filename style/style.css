@@ -86,12 +86,10 @@ html {
 #projects {
     background-color: #45567d;
     text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    height: 100%;
     margin: 0 auto;
+    padding: 3rem 1rem 1rem 1rem;
+
 }
 
 #projects h2 {
@@ -103,6 +101,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 2rem;
 
 }
 
@@ -120,7 +119,7 @@ html {
 
 .project-list {
     /* display: block; */
-    width: 300px;
+    width: 400px;
     background-color: #303841;
     border-radius: 10px;
     position: relative;
@@ -213,7 +212,6 @@ html {
 #footer-section {
     display: flex;
     justify-content: flex-end;
-    margin-top: 8rem;
     border-top: 0.3em solid;
     border-top-color: #be3144;
 }
