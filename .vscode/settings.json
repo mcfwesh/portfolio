@@ -1,0 +1,8 @@
+{
+    "html.format.indentHandlebars": true,
+    "html.format.wrapLineLength": 200,
+    "html.format.unformatted": "",
+    "html.format.endWithNewline": true,
+    "html.format.contentUnformatted": "",
+    "html.format.indentInnerHtml": true
+}
