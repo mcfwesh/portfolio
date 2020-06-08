@@ -54,6 +54,11 @@ html {
     text-align: center;
     margin: 0 auto;
     padding: 0;
+    position: relative;
+}
+
+#animate {
+    position: relative;
 }
 
 .tech-stack-overlay {
