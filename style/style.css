@@ -203,7 +203,7 @@ html {
     align-items: center;
     justify-content: center;
     margin: 4rem;
-    /* padding: 0; */
+    padding: 0;
     flex-wrap: wrap;
 }
 
