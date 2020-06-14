@@ -1,6 +1,10 @@
 const navBar = document.querySelectorAll(".navbar-list");
 let current = document.getElementsByClassName("activeNav");
-console.log(current[0]);
+console.log(navBar);
+const animate = document.getElementById("animate");
+console.log(animate);
+let position = 100;
+const animationInterval = setInterval(enterScreen, 10);
 
 navBar.forEach((nav) => {
   nav.addEventListener("mouseover", (e) => {
@@ -18,12 +22,6 @@ navBar.forEach((nav) => {
     e.target.className += " activeNav";
   });
 });
-
-const animate = document.getElementById("animate");
-animate.style.left = "100";
-console.log(animate);
-let position = 100;
-const animationInterval = setInterval(enterScreen, 10);
 
 function enterScreen() {
   if (position === 0) {
