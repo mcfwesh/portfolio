@@ -1,10 +1,7 @@
 const navBar = document.querySelectorAll(".navbar-list");
 let current = document.getElementsByClassName("activeNav");
-console.log(navBar);
 const animate = document.getElementById("animate");
-console.log(animate);
 let position = 100;
-const animationInterval = setInterval(enterScreen, 10);
 
 navBar.forEach((nav) => {
   nav.addEventListener("mouseover", (e) => {
@@ -23,10 +20,18 @@ navBar.forEach((nav) => {
   });
 });
 
-function enterScreen() {
-  if (position === 0) {
-    clearInterval(animationInterval);
-  } else {
-    animate.style.left = position-- + "%";
-  }
-}
+// function enterScreen() {
+//   if (position === 0) {
+//     clearInterval(animationInterval);
+//   } else {
+//     animate.style.left = position-- + "%";
+//   }
+// }
+const welcomeH1 = document.querySelector("#welcome-section h1");
+const welcomeP = document.querySelector("#welcome-section p");
+console.log(welcomeH1);
+
+setTimeout(() => (welcomeH1.className += "animate"), 0);
+setTimeout(() => {
+  welcomeP.style.visibility = "visible";
+}, 5000);
