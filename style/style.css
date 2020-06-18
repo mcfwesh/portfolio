@@ -239,16 +239,20 @@ html {
     flex-wrap: wrap;
 }
 
+#contact-section li {
+    margin: 1rem;
+    padding: .5rem;
+}
+
 #contact-section a {
     text-decoration: none;
     color: white;
-    padding: 2rem;
+
     font-size: 2rem;
-    margin: 1rem;
 }
 
 #contact-section i {
-    padding-right: 0.5rem;
+    padding-right: .5rem;
     display: inline-block;
     text-shadow: 1px 1px 1px #ccc;
 }
